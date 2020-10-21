@@ -1,0 +1,55 @@
+#%%
+import pandas as pd
+
+actors_df = pd.read_csv('../data/Movie_Actors.csv')
+additional_ratings_df = pd.read_csv('../data/Movie_AdditionalRating.csv')
+genres_df = pd.read_csv('../data/Movie_Genres.csv')
+movies_df = pd.read_csv('../data/Movie_Movies.csv')
+writers_df = pd.read_csv('../data/Movie_Writer.csv')
+
+print('====ACTORS TABLE INFO====')
+print(actors_df.info())
+print('====TOP 10 ROWS OF DATA====')
+print(actors_df.head(10))
+print('====COUNT====')
+print(actors_df.count())
+print('====UNIQUE COUNT====')
+print(actors_df.nunique())
+# %%
+print('====RATINGS TABLE INFO====')
+print(additional_ratings_df.info())
+print('====TOP 10 ROWS OF DATA====')
+print(additional_ratings_df.head(10))
+print('====COUNT====')
+print(additional_ratings_df.count())
+print('====UNIQUE COUNT====')
+print(additional_ratings_df.nunique())
+# %%
+print('====GENERES TABLE INFO====')
+print(genres_df.info())
+print('====TOP 10 ROWS OF DATA====')
+print(genres_df.head(10))
+print('====COUNT====')
+print(genres_df.count())
+print('====UNIQUE COUNT====')
+print(genres_df.nunique())
+# %%
+print('====MOVIES TABLE INFO====')
+print(movies_df.info())
+print('====TOP 10 ROWS OF DATA====')
+print(movies_df.head(10))
+print('====COUNT====')
+print(movies_df.count())
+print('====UNIQUE COUNT====')
+print(movies_df.nunique())
+# %%
+
+print('====WRITERS TABLE INFO====')
+print(writers_df.info())
+print('====TOP 10 ROWS OF DATA====')
+print(writers_df.head(10))
+print('====COUNT====')
+print(writers_df.count())
+print('====UNIQUE COUNT====')
+print(writers_df.nunique())
+# %%

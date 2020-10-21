@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "localhost",
+            "database": "zlabs_foreign_exchange_rates",
+            "username": "clayton",
+            "password": "clayton"
+        }
+    ]
+}
