@@ -18,10 +18,6 @@ class PartscrawlerSpider(CrawlSpider):
         Rule(LinkExtractor(allow=('catalogue')), callback='parse_page', follow=True),
     )
 
-    def split_output():
-        pass
-
-
     def parse_page(self, res):
         parts = res.css('div#contentWrapWide')
 
